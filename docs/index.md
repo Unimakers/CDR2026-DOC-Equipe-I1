@@ -32,7 +32,6 @@ Côté PAMI, il,y en avait deux types :
 
 Pour plus de détails, nous vous invitons à <a href="C:\Users\emric\OneDrive\Documents\GitHub\CDR2026-DOC-Equipe-I1\docs\images\Eurobot2026_Rules_1.0_FR.pdf" download>Télécharger le règlement</a>
 
-
 ## Poster
 
 Ici vous publierez le poster de votre projet.
