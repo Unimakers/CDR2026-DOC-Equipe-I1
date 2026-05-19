@@ -27,10 +27,10 @@ Le thème de cette édition 2026 était "Winter is Coming" (L'hiver arrive). Dan
 * Déplacer un curseur le long de la parois jusqu'au millieu d'un termomètre
 
 Côté PAMI, il,y en avait deux types :
-* Les PAMI classiques, qui devait se déplacer vers les point de dépots de planchettes avant d'enclancher son actioneur
+* Les PAMI classiques, qui doivent se déplacer vers les point de dépots de planchettes avant d'enclancher son actioneur
 * Le PAMI "ninja" sur un espace dédié qui doit déplacer des planchettes se son côté
 
-Pour plus de détails, nous vous invitons à <a href="https://unimakers.fr/CDR2026-DOC-Equipe-I1/images/Eurobot2026_Rules_1.0_FR.pdf" download>Télécharger le règlement</a>
+Pour plus de détails, nous vous invitons à <a href="https://unimakers.fr/CDR2026-DOC-Equipe-I1/images/Eurobot2026_Rules_1.0_FR.pdf" download>télécharger le règlement de l'édition 2026 : Winter is Coming</a>
 
 ## Poster
 
