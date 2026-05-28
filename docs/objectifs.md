@@ -5,8 +5,7 @@ title: Objectifs du projet
 ---
 
 # Introduction
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+Avec Unimakers, nous avons participé à la coupe de France de robotique, organisée par planète science qui est une association promouvant l'innovation chez les jeunes, dans des domaines tels que la robotique, la numérique, mais encore l'espace et l'astronomie.
 
 ## Contexte du Projet
 
