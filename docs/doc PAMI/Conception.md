@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Conception
-nav_order: 2
+nav_order: 1
+parent: PAMI
 has_children: true
 ---
 
