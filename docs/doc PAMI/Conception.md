@@ -8,10 +8,6 @@ has_children: true
 
 # Conception et et méchanique du PAMI
 
-## Introduction 
-
-Les PAMI (*Petit Actionneur Mobile Indépendant*) ont pour objectif selon le régement de coupe de France de robotique 2026, d'aller dans **certaine zone en fin de match afin de sécuriser des gardes manger**(zone délimité dans lesquelles le robot principale à pour objectif de disposer des caisses de la couleur assigné à l'équipe.)
-
 Les PAMI possédent des contraintes méchanique ainsi que réglementaire. Au début du match, le PAMI doit reposer uniquement sur la table. Sa hauteur initiale est limitée à 150 mm. Son périmètre de départ ne doit pas dépasser 600 mm. Toutefois, sa taille globale doit être supérieure à celle d'un cube de 60 mm de côté.
 Pendant le jeu, le PAMI a le droit de se déployer. Son périmètre peut alors s'étendre pour atteindre une limite de 700 mm. Son altitude maximale, une fois déployé, est fixée à 350 mm.
 Concernant sa conception, la masse du PAMI ne doit jamais excéder 1,5 kg. Il faut impérativement prévoir une surface libre de 30 x 30 mm pour y coller le numéro de stand. Enfin, le robot doit être totalement autonome. Il est strictement interdit de le piloter avec une télécommande ou depuis l'extérieur de la table.
