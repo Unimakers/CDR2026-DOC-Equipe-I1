@@ -1,6 +1,5 @@
 ---
 layout: default
-parent: Conception
 nav_order: 4
 title: Fonctionnement
 ---
