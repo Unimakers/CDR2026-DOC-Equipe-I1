@@ -27,3 +27,5 @@ Pour réaliser notre code, nous avons utilisé les bibliothèques :
 
 Nous les avons mis à profit dans l'environnement **VScode** avec PlatformIO, ainsi nous pouvions envoyer notre code sur **github** et travailler ensemble en temps réel.
 
+Pour les déplacements, nous avons configuré notre code pour que notre Pami ne se déplace qu'en ligne droite, et en évitant les diagonales.Ainsi, le robot peut garder en mémoire ses coordonnées et son angle, et ses séquences sont plus facilement vérifiables et corrigeables.
+Le code en lui même utilise beaucoup d'interactions entre les fonctions et les protocoles, permettant de s'adapter à chaque situation et d'avoir un fonctionnement très séquencé permettant aussi de mieux travailler sur différentes fonctionnalités simultanément.
