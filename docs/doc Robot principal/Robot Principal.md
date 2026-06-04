@@ -6,5 +6,5 @@ has_children: true
 ---
 
 # Page explicatif quand aux fonctionnement et tâches du robot principal
-![Robot principal](docs\images\img_robot.png)
+![Robot Principal](images/img_robot.png)
 # bojour
