@@ -9,9 +9,9 @@ has_children: true
 
 > **Équipe :** UNIMAKERS  
 > **Compétition :** Coupe de France de Robotique 2025 — catégorie Senior  
-> **Thème :** *The Show Must Go On* — Robot-Rock-Tour  
+> **Thème :** *Winter is coming*
 > **Lieu :** Parc des Expositions, La Roche-sur-Yon (Vendée)  
-> **Date :** 28 – 31 mai 2025  
+> **Date :** mai 2026  
 
 ---
 
@@ -33,19 +33,19 @@ Chaque édition introduit un nouveau thème qui redéfinit entièrement les obje
 - **Tirette de départ :** le robot doit démarrer uniquement à l'extraction d'une tirette physique
 - **Tension batterie :** limitée, la batterie doit être sécurisée et le robot ne doit présenter aucun risque électrique
 
-### 1.3 Thème 2025 — *The Show Must Go On*
+### 1.3 Thème 2025 — *winter is coming*
 
-L'édition 2025 plonge les robots dans l'univers du **Robot-Rock-Tour**. Les robots doivent préparer une salle de concert, en accomplissant les tâches suivantes sur la table de jeu :
+L'édition 2026 plonge les robots dans l'univers de **d'un frigo en lisière de foret**. Les robots doivent prendre la place d'écureuilles, en accomplissant les tâches suivantes sur la table de jeu :
 
-- **Construire des gradins** : empiler des blocs de jeu avec précision pour former des gradins et accueillir le maximum de spectateurs
-- **Déployer une banderole** : déployer une banderole publicitaire pour attirer le public
+- **s'acaparer des caisses de noisetes** : prendre des blocs et les retourner sur ça propre couleur dans les nids
+- **augmenter la température** : placer un curseur le plus proche du 10 
 - **Lâcher les PAMIs** : libérer de petits actionneurs mobiles indépendants (PAMIs) qui se déplacent seuls sur la table pour marquer des points supplémentaires
 - **Revenir en zone de départ** : en fin de match, le robot doit se garer dans les coulisses pour marquer des points bonus
-- **Estimer le public** : déclarer le nombre de spectateurs estimés pour tenter un bonus de points
+- **ramener les noisettes dans le nids** : remener des bloc dans sa propre zone
 
 La table de jeu est un tapis vinyle antidérapant de 3 × 2 mètres, divisé entre la zone de l'équipe bleue et celle de l'équipe jaune.
 
-(image de la table de jeu officielle CDR 2025)
+(image de la table de jeu officielle CDR 2026)
 
 ---
 
@@ -53,9 +53,9 @@ La table de jeu est un tapis vinyle antidérapant de 3 × 2 mètres, divisé ent
 
 ### 2.1 Présentation
 
-UNIMAKERS est une équipe de robotique passionnée qui a participé à la Coupe de France de Robotique 2025 dans la catégorie **Senior**. L'équipe regroupe des membres aux compétences complémentaires couvrant la conception mécanique, l'électronique et la programmation embarquée.
+UNIMAKERS est une équipe de robotique passionnée qui a participé à la Coupe de France de Robotique 2026 dans la catégorie **Senior**. L'équipe regroupe des membres aux compétences complémentaires couvrant la conception mécanique, l'électronique et la programmation embarquée.
 
-> ℹ️ *[À compléter : nombre de membres, formation/école d'origine, ville]*
+> ℹ️ 15 participant
 
 (image de l'équipe UNIMAKERS)
 
@@ -63,7 +63,7 @@ UNIMAKERS est une équipe de robotique passionnée qui a participé à la Coupe 
 
 Pour cette édition, l'équipe s'est fixé les objectifs suivants :
 
-- Concevoir un robot entièrement original, en partant de zéro
+- Concevoir un robot entièrement original, en partant de zéro par rapport aux année précédentes
 - Passer l'homologation officielle
 - Jouer des matchs compétitifs en maximisant le score atteignable avec les actionneurs disponibles
 - Documenter l'ensemble du projet pour partager les apprentissages
@@ -75,8 +75,6 @@ Pour cette édition, l'équipe s'est fixé les objectifs suivants :
 ### 3.1 Vue d'ensemble
 
 (image du rendu CAO 3D du robot — vue isométrique)
-
-(image du robot physique assemblé)
 
 Le robot principale est un robot différentiel à deux roues motrices conçu pour naviguer sur la table de jeu, détecter les obstacles en temps réel grâce à un LIDAR, et interagir avec les blocs de jeu via un système d'actionneurs à ventouses.
 
@@ -107,29 +105,6 @@ Cette stratégie dégradée a permis à l'équipe de **passer l'homologation et 
 - ✅ Matchs joués
 - ⚠️ Actionneurs à ventouses non fonctionnels en compétition (hors actionneur thermomètre)
 
-> ℹ️ *[À compléter : score obtenu, classement, nombre de matchs joués]*
+> ℹ️ 29e sur 90 joueur
 
 ---
-
-## 4. Structure du dépôt GitHub
-
-```
-UNIMAKERS-CDR2025/
-├── README.md                  ← Ce fichier : présentation rapide
-├── docs/
-│   ├── 01_presentation_projet.md     ← Ce document
-│   ├── 02_conception.md              ← Conception 3D et mécanique
-│   └── 03_electronique.md            ← Architecture électronique
-├── src/                       ← Code source ESP32
-├── hardware/
-│   ├── cad/                   ← Fichiers OnShape (exports STEP/STL)
-│   ├── kicad/                 ← Schémas électroniques KiCad
-│   └── bom/                   ← Liste de matériel (BOM)
-├── media/
-│   ├── photos/
-│   └── videos/
-├── CONTRIBUTING.md
-└── LICENSE
-```
-
-*Documentation rédigée par l'équipe UNIMAKERS — CDR 2025*
