@@ -4,15 +4,6 @@ parent: PAMI
 nav_order: 2
 title: Programmation
 ---
-# Documentation Technique — PAMI
-## Partie : Programmation (ESP32-S3 / C++)
-
-> **Plateforme :** XIAO ESP32-S3 · C++ · Espressif IDF / Arduino  
-> **Contexte :** Coupe de France de Robotique — Activation autonome à T−85 s  
-> **Destinataires :** Professeur encadrant · Équipe successeur  
-> **Version :** 1.0 — 2025
-
----
 
 ## Table des matières
 
