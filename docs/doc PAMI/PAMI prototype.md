@@ -6,7 +6,7 @@ title: Prototype
 ---
 * Le Pami Débile ( prototype )
 
-Au début du projet, nous avons réalisé un premier prototype de PAMI très simple. L’objectif était de créer un petit robot minimaliste, capable de faire uniquement un déplacement en ligne droite, collé au mur, afin de rapporter quelques points faciles sans nécessiter de mécanique complexe. L’idée était de concevoir un “petit PAMI débile”, rapide à fabriquer et à programmer.
+Au début du projet, nous avons réalisé un premier prototype de PAMI très simple. L’objectif était de créer un petit robot , capable de faire uniquement un déplacement en ligne droite, collé au mur, afin de rapporter quelques points faciles sans nécessiter de mécanique complexe. L’idée était de concevoir un “petit PAMI débile”, rapide à fabriquer et à programmer.
 
 Ce prototype respectait bien les contraintes du règlement. Le problème ne venait donc pas du règlement, mais d’un autre point important : tous les robots devaient rentrer dans un espace de stockage précis. Or, malgré sa simplicité, ce prototype occupait quasiment le même volume qu’un PAMI principal.
 
