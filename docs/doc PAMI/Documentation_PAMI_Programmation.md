@@ -13,7 +13,6 @@ title: Programmation
 4. [Communication & entrées/sorties](#4-communication--entréessorties)
 5. [Stratégie et séquencement](#5-stratégie-et-séquencement)
 6. [Tâches FreeRTOS](#6-tâches-freertos)
-7. [Points d'attention & travaux futurs](#7-points-dattention--travaux-futurs)
 
 ---
 
@@ -109,15 +108,12 @@ Le PAMI utilise deux moteurs pas-à-pas en configuration **DRIVER** (signaux STE
 | `step_90` | −590 pas | Nombre de pas pour une rotation de 90° |
 | Facteur avance | ×8 | Conversion mm → pas dans `move_co_abs` (empirique) |
 
-> ⚠️ **Bug connu :** `float step_to_mm = 650/5205;` effectue une **division entière** à la compilation → résultat = 0. Corriger en : `float step_to_mm = 650.0f / 5205.0f;`
 
 ### 3.3 Servo SG90
 
 - **Broche :** D4 (GPIO5 / I2C_SDA)
 - **Fréquence PWM :** 50 Hz
 - **Usage :** `boucle_actionneur()` — balayage 0 → 70° → 0° par pas de 1° toutes les 5 ms
-
-> ⚠️ **Conflit de broche :** D4 est partagée entre le servo SG90 et le SDA I2C. `sg90.attach(D4)` est appelé avant `Wire.begin(D4, D5)`. Vérifier la compatibilité si les deux sont actifs simultanément.
 
 ---
 
@@ -169,7 +165,7 @@ team = ((etat & 0b00000001) == 0) ? 1 : 2;
 - **Seuil de détection :** distance ≤ **10 cm** → `obstacle = true`
 - **Partage inter-core :** variable `volatile bool obstacle` + mutex `obstacleMutex`
 
-> ⚠️ **Bug connu :** la protection mutex dans `detection()` est actuellement **commentée**. La variable `obstacle` est donc accédée sans verrou depuis les deux cores → risque de comportement indéterminé. À réactiver.
+> ⚠️ **Bug connu :** la protection mutex dans `detection()` est actuellement **commentée**. La variable `obstacle` est donc accédée sans verrou depuis les deux cores → risque de comportement indéterminé. 
 
 ---
 
@@ -237,7 +233,6 @@ Lors d'un déplacement (`goToRelative`), si un obstacle est détecté :
 8. Reprendre move_co_abs() depuis la nouvelle position
 ```
 
-> ⚠️ `esquive()` est implémentée mais son appel est **commenté** dans `goToRelative()`. À tester et valider en conditions réelles.
 
 ### 5.5 Stratégie par équipe — `strategy()`
 
@@ -257,29 +252,3 @@ Lors d'un déplacement (`goToRelative`), si un obstacle est détecté :
 
 La séparation sur deux cores garantit que la **lecture ultrason** (toutes les 50 ms) ne bloque jamais le **calcul des pas moteurs**, qui doit être appelé très fréquemment pour ne pas perdre de pas (`runStepper()` doit tourner en boucle serrée).
 
----
-
-## 7. Points d'attention & travaux futurs
-
-### 7.1 Bugs connus
-
-| # | Localisation | Problème | Correction |
-|---|---|---|---|
-| 1 | `main.cpp` L.27 | `float step_to_mm = 650/5205` → division entière, résultat = 0 | Remplacer par `650.0f / 5205.0f` |
-| 2 | `detection()` | Mutex `obstacleMutex` commenté → accès non protégé à `obstacle` | Réactiver le bloc `xSemaphoreTake` |
-| 3 | `setup()` | D4 partagée servo + I2C SDA | Tester la cohabitation ou dédier une broche |
-| 4 | `move_co_abs()` | Facteur ×8 (mm→pas) non documenté et empirique | Mesurer et formaliser avec diamètre + entraxe réels |
-| 5 | `goToRelative()` | Appel `esquive()` commenté | Tester et activer en conditions réelles |
-
-### 7.2 Recommandations pour les successeurs
-
-- Ajouter `Def_PAMI.h` commenté (liste complète des constantes et broches) à cette documentation
-- Mettre en place un **log série structuré** (positions, états) pour le débogage en match
-- Remplacer la navigation cartésienne par une **odométrie avec encodeurs** pour plus de précision
-- Envisager **ESP-NOW** pour recevoir le signal de départ du robot principal (en remplacement de la tirette)
-- Créer des **tests unitaires** des fonctions de conversion (pas ↔ mm, angles) avant chaque compétition
-- Documenter `step_90` : valeur mesurée en fonction de l'entraxe des roues et du nombre de pas/tour du moteur
-
----
-
-*Documentation rédigée par l'équipe Programmation — Projet PAMI 2025*
