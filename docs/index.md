@@ -9,7 +9,7 @@ permalink: /
 
 Ce site regroupe toute les informations à propos de la réalisation du Robot principal et des PAMI de la coupe de France de Robotique par les premières années.
 
-[Notre Projet Onshape](https://cad.onshape.com/documents/5b95f7d41002d84546ec6a71/w/4d12e92d5e6caf64c727cbc9/e/ff990b5b5ecc051d8c3d9b93){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Notre Projet Onshape](https://cad.onshape.com/documents/5b95f7d41002d84546ec6a71/w/4d12e92d5e6caf64c727cbc9/e/ff990b5b5ecc051d8c3d9b93){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 [Notre repository GitHub](https://github.com/Makerspace-Amiens/template-project){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ![Image du robot principal](images/img_robot.png)
