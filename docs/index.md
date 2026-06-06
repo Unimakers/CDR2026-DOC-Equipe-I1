@@ -9,7 +9,7 @@ permalink: /
 
 Ce site regroupe toute les informations à propos de la réalisation du Robot principal et des PAMI de la coupe de France de Robotique par les premières années.
 
-[Notre projet sur Onshape](https://cad.onshape.com/documents/5b95f7d41002d84546ec6a71/w/4d12e92d5e6caf64c727cbc9/e/ff990b5b5ecc051d8c3d9b93?renderMode=0&uiState=6a0c52205cfa1daf0cf822fc){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Notre projet sur Onshape](docs\images\img_robot.png){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Notre repo GitHub](https://github.com/Makerspace-Amiens/template-project){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 <iframe height="600" width="100%" src="https://modelembedder.net/embed?did=5b95f7d41002d84546ec6a71&wvm=v&wvmid=2aa7883a0bb36a1c42d1726a&eid=ff990b5b5ecc051d8c3d9b93&elementType=ASSEMBLY" frameborder="0"></iframe>
@@ -38,16 +38,7 @@ Ici vous publierez le poster de votre projet.
 
 ![Poster projet](images/poster.jpg)
 
-## Vidéo
-
-Ici vous publierez la vidéo de votre projet. 
-- 1min30 au format vertical
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
+## Vidéo de présentation
 
 <video src="images/CDR 2026_480p.mp4" controls title="Title"  style="width: 100%;"></video>
 
