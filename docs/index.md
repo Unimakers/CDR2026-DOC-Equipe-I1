@@ -29,7 +29,7 @@ Pour plus de détails, nous vous invitons à <a href="https://unimakers.fr/CDR20
 
 ## Poster
 
-![Poster projet](images/poster.jpg)
+![Poster projet](images/Coupe_de_france poster.png)
 
 ## Vidéo de présentation
 
