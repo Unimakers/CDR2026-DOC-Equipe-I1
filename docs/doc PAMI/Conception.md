@@ -8,7 +8,6 @@ has_children: true
 
 ## 1 Conception et et méchanique du PAMI
 
-*préambule*
 
 Les PAMI possédent des contraintes méchanique ainsi que réglementaire. Au début du match, le PAMI doit reposer uniquement sur la table. Sa hauteur initiale est limitée à 150 mm. Son périmètre de départ ne doit pas dépasser 600 mm. Toutefois, sa taille globale doit être supérieure à celle d'un cube de 60 mm de côté.
 Pendant le jeu, le PAMI a le droit de se déployer. Son périmètre peut alors s'étendre pour atteindre une limite de 700 mm. Son altitude maximale, une fois déployé, est fixée à 350 mm.
@@ -19,7 +18,7 @@ Pour la conception, nous avons cherché à optimiser l'espace afin de pouvoir in
 
 ## 1.1 Structure et Châssis
 
-ct imprimé en 3D dans sa version finale noire. Nous avons fait ce choix car le règlement impose un périmètre maximum de 600 mm et une hauteur maximale de 150 mm, et la place dans la zone de départ était critique pour y faire rentrer les six unités ainsi que le robot principal. Cela nous a permis de valider l'homologation dimensionnelle auprès des arbitres et d'optimiser totalement le volume disponible au départ. De plus, nous avons procédé à un abaissement maximal du centre de gravité en plaçant les composants lourds, comme les moteurs et la batterie, au plus près du sol. L'empilement vertical imposé par la réduction de la largeur augmentait le risque de basculement lors des phases de freinage ou de rotation. Grâce à cela, nous avons obtenu une excellente stabilité dynamique du robot, évitant ainsi les chutes et garantissant des trajectoires fiables sur la table. 
+Nous avons opté pour une impression 3D dans sa version finale noire. Nous avons fait ce choix car le règlement impose un périmètre maximum de 600 mm et une hauteur maximale de 150 mm, et la place dans la zone de départ était critique pour y faire rentrer les six unités ainsi que le robot principal. Cela nous a permis de valider l'homologation dimensionnelle auprès des arbitres et d'optimiser totalement le volume disponible au départ. De plus, nous avons procédé à un abaissement maximal du centre de gravité en plaçant les composants lourds, comme les moteurs et la batterie, au plus près du sol. L'empilement vertical imposé par la réduction de la largeur augmentait le risque de basculement lors des phases de freinage ou de rotation. Grâce à cela, nous avons obtenu une excellente stabilité dynamique du robot, évitant ainsi les chutes et garantissant des trajectoires fiables sur la table. 
 
 ## 1.2 Motorisation et Actionneurs
 
