@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Conception
+parent: Conception_Pami
 nav_order: 2
 title: Version Finale
 ---

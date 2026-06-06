@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Conception
+parent: Conception_Pami
 nav_order: 1
 title: Prototype
 ---
