@@ -13,6 +13,8 @@ Pendant le jeu, le PAMI a le droit de se déployer. Son périmètre peut alors s
 
 ![Poster projet](images/Coupe_de_france poster.png)
 
+<video src="images/CDR 2026_480p.mp4" controls title="Title"  style="width: 100%;"></video>
+
 Concernant sa conception, la masse du PAMI ne doit jamais excéder 1,5 kg. Il faut impérativement prévoir une surface libre de 30 x 30 mm pour y coller le numéro de stand. Enfin, le robot doit être totalement autonome. Il est strictement interdit de le piloter avec une télécommande ou depuis l'extérieur de la table (réservé à la coupe Jr).
 
 Pour ce qui en est de la stratégie, celui-ci est déployé à la 85e seconde de match puisque les PAMI peuvent uniquement se mouvoir hors du nid des écureuils en fin de match (d'une durée de 100 s).
